@@ -1,0 +1,41 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-weditor-dev-03002-authRole",
+      "UnauthRoleArn": "arn:aws:iam::825789900535:role/amplify-weditor-dev-03002-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::825789900535:role/amplify-weditor-dev-03002-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-weditor-dev-03002-deployment",
+      "UnauthRoleName": "amplify-weditor-dev-03002-unauthRole",
+      "StackName": "amplify-weditor-dev-03002",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:825789900535:stack/amplify-weditor-dev-03002/08534f70-e809-11ec-a2c8-06bdd614785a",
+      "AmplifyAppId": "d2h7s8ceuhgly8"
+    }
+  },
+  "api": {
+    "weditor": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "avjerez3t5fbrglnzseul35ziq",
+        "GraphQLAPIEndpointOutput": "https://pvp6yhuacngkhkiak2ksayhbwa.appsync-api.ap-northeast-2.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-fq3n6jpskvdoxfhxxwhuyuhtuy"
+      },
+      "lastPushTimeStamp": "2022-06-10T12:16:25.465Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-weditor-dev-03002-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apiweditor"
+      }
+    }
+  }
+}
