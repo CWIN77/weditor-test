@@ -21,8 +21,4 @@ type Setting {
 }
 type User {
   id: ID!
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 208b6921f53e9b128102e73ac4165582874883cf

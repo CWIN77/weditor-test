@@ -1,6 +1,7 @@
 {
   "dev": {
     "awscloudformation": {
+<<<<<<< HEAD
       "AuthRoleName": "amplify-weditor-dev-14513-authRole",
       "UnauthRoleArn": "arn:aws:iam::825789900535:role/amplify-weditor-dev-14513-unauthRole",
       "AuthRoleArn": "arn:aws:iam::825789900535:role/amplify-weditor-dev-14513-authRole",
@@ -10,6 +11,17 @@
       "StackName": "amplify-weditor-dev-14513",
       "StackId": "arn:aws:cloudformation:ap-northeast-2:825789900535:stack/amplify-weditor-dev-14513/b32ea330-e8dc-11ec-8976-026f32e71f00",
       "AmplifyAppId": "d7y4ml2o0k7x2"
+=======
+      "AuthRoleName": "amplify-weditor-dev-03002-authRole",
+      "UnauthRoleArn": "arn:aws:iam::825789900535:role/amplify-weditor-dev-03002-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::825789900535:role/amplify-weditor-dev-03002-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-weditor-dev-03002-deployment",
+      "UnauthRoleName": "amplify-weditor-dev-03002-unauthRole",
+      "StackName": "amplify-weditor-dev-03002",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:825789900535:stack/amplify-weditor-dev-03002/08534f70-e809-11ec-a2c8-06bdd614785a",
+      "AmplifyAppId": "d2h7s8ceuhgly8"
+>>>>>>> 208b6921f53e9b128102e73ac4165582874883cf
     }
   }
 }

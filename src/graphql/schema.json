@@ -2575,6 +2575,26 @@
         "onFragment" : false,
         "onField" : false
       }, {
+<<<<<<< HEAD
+=======
+        "name" : "deprecated",
+        "description" : null,
+        "locations" : [ "FIELD_DEFINITION", "ENUM_VALUE" ],
+        "args" : [ {
+          "name" : "reason",
+          "description" : null,
+          "type" : {
+            "kind" : "SCALAR",
+            "name" : "String",
+            "ofType" : null
+          },
+          "defaultValue" : "\"No longer supported\""
+        } ],
+        "onOperation" : false,
+        "onFragment" : false,
+        "onField" : false
+      }, {
+>>>>>>> 208b6921f53e9b128102e73ac4165582874883cf
         "name" : "aws_cognito_user_pools",
         "description" : "Tells the service this field/object has access authorized by a Cognito User Pools token.",
         "locations" : [ "OBJECT", "FIELD_DEFINITION" ],
@@ -2661,6 +2681,7 @@
         "onOperation" : false,
         "onFragment" : false,
         "onField" : false
+<<<<<<< HEAD
       }, {
         "name" : "deprecated",
         "description" : null,
@@ -2678,6 +2699,8 @@
         "onOperation" : false,
         "onFragment" : false,
         "onField" : false
+=======
+>>>>>>> 208b6921f53e9b128102e73ac4165582874883cf
       } ]
     }
   }
